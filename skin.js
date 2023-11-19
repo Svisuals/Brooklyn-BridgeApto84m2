@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.13/18080
 // Filename: BrooklynBridge.ggsk
-// Generated 2023-11-19T17:49:00
+// Generated 2023-11-19T17:56:06
 
 function pano2vrSkin(player,base) {
 	player.addVariable('BASICO', 2, false);
