@@ -611,7 +611,7 @@
       <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
       <hotspot tilt="4.5" target="" id="Point01" skinid="ht_node" distance="5.60284" pan="-49.6" title="B" url="{node22}" description=""/>
       <hotspot tilt="4.01" target="" id="Point02" skinid="ht_node" distance="6.11572" pan="-310.64" title="C" url="{node23}" description=""/>
-      <hotspot tilt="-40.44" target="" id="Lobby" skinid="ht_image" pan="-9.15999" title="Lobby" url="images/08 Interna Lobby - HR.jpg" description=""/>
+      <hotspot tilt="-40.44" target="" id="Lobby" skinid="ht_image" pan="-9.16" title="Lobby" url="images/08 Interna Lobby - HR.jpg" description=""/>
       <hotspot tilt="-40.36" target="" id="Portaria" skinid="ht_image" pan="-352.23" title="Portaria" url="images/02 Externa Portaria Residencia - HR.jpg" description=""/>
       <hotspot tilt="-20.01" target="" id="Fitness" skinid="ht_image" pan="-33.02" title="Fitness" url="images/11 Interna Fitness - HR.jpg" description=""/>
       <hotspot tilt="-23.81" target="" id="Jogos Adulto" skinid="ht_image" pan="-2.19" title="Jogos Adulto" url="images/09 Interna Jogos Adulto - HR.jpg" description=""/>
@@ -698,7 +698,7 @@
       <hotspot tilt="-30.33" target="" id="Pool House" skinid="ht_image" pan="-46.79" title="Pool House" url="images/04 Externa Pool House - HR.jpg" description=""/>
       <hotspot tilt="-24.27" target="" id="Piscina" skinid="ht_image" pan="-312.84" title="Piscina" url="images/03 Externa Piscina - HR.jpg" description=""/>
       <hotspot tilt="-17.94" target="" id="Churrasqueira" skinid="ht_image" pan="-47.35" title="Churrasqueira" url="images/06 Externa Churrasqueira - HR.jpg" description=""/>
-      <hotspot tilt="-22.38" target="" id="Gourmet" skinid="ht_image" pan="-25.04" title="Gourmet" url="images/13 Interna Gourmet - HR.jpg" description=""/>
+      <hotspot tilt="-22.88" target="" id="Gourmet" skinid="ht_image" pan="-25.04" title="Gourmet" url="images/13 Interna Gourmet - HR.jpg" description=""/>
       <hotspot tilt="-19.93" target="" id="Festas" skinid="ht_image" pan="-38.07" title="Festas" url="images/14 Interna Festas - HR.jpg" description=""/>
       <hotspot tilt="-24.41" target="" id="Playground" skinid="ht_image" pan="-4.03" title="Playground" url="images/12 Interna Brinquedoteca - HR.jpg" description=""/>
       <hotspot tilt="-22.29" target="" id="Family House" skinid="ht_image" pan="-59.86" title="Family House" url="images/15 Interna Family House - HR.jpg" description=""/>
