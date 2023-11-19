@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.13/18080
 // Filename: BrooklynBridge2.ggsk
-// Generated 2023-11-19T19:55:20
+// Generated 2023-11-19T20:05:37
 
 function pano2vrSkin(player,base) {
 	player.addVariable('BASICO', 2, false);
@@ -6155,22 +6155,16 @@ function pano2vrSkin(player,base) {
 		me._planta_implantao.logicBlock_scaling = function() {
 			var newLogicStateScaling;
 			if (
-				((player.getViewerSize().height <= 300))
+				((player.getViewerSize().width <= 380))
 			)
 			{
 				newLogicStateScaling = 0;
 			}
 			else if (
-				((player.getViewerSize().width <= 380))
-			)
-			{
-				newLogicStateScaling = 1;
-			}
-			else if (
 				((player.getViewerSize().width <= 1024))
 			)
 			{
-				newLogicStateScaling = 2;
+				newLogicStateScaling = 1;
 			}
 			else {
 				newLogicStateScaling = -1;
@@ -6184,11 +6178,6 @@ function pano2vrSkin(player,base) {
 					me._planta_implantao.style[domTransform]=parameterToTransform(me._planta_implantao.ggParameter);
 				}
 				else if (me._planta_implantao.ggCurrentLogicStateScaling == 1) {
-					me._planta_implantao.ggParameter.sx = 0.15;
-					me._planta_implantao.ggParameter.sy = 0.15;
-					me._planta_implantao.style[domTransform]=parameterToTransform(me._planta_implantao.ggParameter);
-				}
-				else if (me._planta_implantao.ggCurrentLogicStateScaling == 2) {
 					me._planta_implantao.ggParameter.sx = 0.2;
 					me._planta_implantao.ggParameter.sy = 0.2;
 					me._planta_implantao.style[domTransform]=parameterToTransform(me._planta_implantao.ggParameter);
