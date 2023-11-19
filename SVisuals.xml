@@ -615,6 +615,7 @@
       <hotspot tilt="-40.36" target="" id="Portaria" skinid="ht_image" pan="-352.23" title="Portaria" url="images/02 Externa Portaria Residencia - HR.jpg" description=""/>
       <hotspot tilt="-20.01" target="" id="Fitness" skinid="ht_image" pan="-33.02" title="Fitness" url="images/11 Interna Fitness - HR.jpg" description=""/>
       <hotspot tilt="-23.81" target="" id="Jogos Adulto" skinid="ht_image" pan="-2.19" title="Jogos Adulto" url="images/09 Interna Jogos Adulto - HR.jpg" description=""/>
+      <hotspot tilt="3.39" target="" id="Point03" skinid="ht_image" pan="-300.09" title="" url="images/vlcsnap-2022-03-19-17h26m34s369.png" description=""/>
     </hotspots>
     <media/>
     <transition zoomspeed="2" type="crossdissolve" blendtime="1" zoomin="0" zoomout="0" zoomoutpause="1" blendcolor="0x000000" zoomfov="20" zoomafterinfov="90" softedge="0" enabled="1" zoomafteroutfov="20"/>
