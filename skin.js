@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.13/18080
 // Filename: BrooklynBridge.ggsk
-// Generated 2023-11-19T11:50:57
+// Generated 2023-11-19T12:18:55
 
 function pano2vrSkin(player,base) {
 	player.addVariable('BASICO', 2, false);
@@ -6155,16 +6155,22 @@ function pano2vrSkin(player,base) {
 		me._planta_implantao.logicBlock_scaling = function() {
 			var newLogicStateScaling;
 			if (
-				((player.getViewerSize().width <= 380))
+				((player.getViewerSize().height <= 300))
 			)
 			{
 				newLogicStateScaling = 0;
 			}
 			else if (
-				((player.getViewerSize().width <= 1024))
+				((player.getViewerSize().width <= 380))
 			)
 			{
 				newLogicStateScaling = 1;
+			}
+			else if (
+				((player.getViewerSize().width <= 1024))
+			)
+			{
+				newLogicStateScaling = 2;
 			}
 			else {
 				newLogicStateScaling = -1;
@@ -6173,11 +6179,16 @@ function pano2vrSkin(player,base) {
 				me._planta_implantao.ggCurrentLogicStateScaling = newLogicStateScaling;
 				me._planta_implantao.style[domTransition]='' + cssPrefix + 'transform 0s, ' + cssPrefix + 'transform 0s';
 				if (me._planta_implantao.ggCurrentLogicStateScaling == 0) {
+					me._planta_implantao.ggParameter.sx = 0.12;
+					me._planta_implantao.ggParameter.sy = 0.12;
+					me._planta_implantao.style[domTransform]=parameterToTransform(me._planta_implantao.ggParameter);
+				}
+				else if (me._planta_implantao.ggCurrentLogicStateScaling == 1) {
 					me._planta_implantao.ggParameter.sx = 0.15;
 					me._planta_implantao.ggParameter.sy = 0.15;
 					me._planta_implantao.style[domTransform]=parameterToTransform(me._planta_implantao.ggParameter);
 				}
-				else if (me._planta_implantao.ggCurrentLogicStateScaling == 1) {
+				else if (me._planta_implantao.ggCurrentLogicStateScaling == 2) {
 					me._planta_implantao.ggParameter.sx = 0.2;
 					me._planta_implantao.ggParameter.sy = 0.2;
 					me._planta_implantao.style[domTransform]=parameterToTransform(me._planta_implantao.ggParameter);
@@ -7527,7 +7538,7 @@ function pano2vrSkin(player,base) {
 		me._corretor.logicBlock_position = function() {
 			var newLogicStatePosition;
 			if (
-				((player.getViewerSize().width <= 300))
+				((player.getViewerSize().height <= 300))
 			)
 			{
 				newLogicStatePosition = 0;
