@@ -700,7 +700,7 @@
       <hotspot tilt="-17.94" target="" id="Churrasqueira" skinid="ht_image" pan="-47.35" title="Churrasqueira" url="images/06 Externa Churrasqueira - HR.jpg" description=""/>
       <hotspot tilt="-22.88" target="" id="Gourmet" skinid="ht_image" pan="-25.04" title="Gourmet" url="images/13 Interna Gourmet - HR.jpg" description=""/>
       <hotspot tilt="-19.93" target="" id="Festas" skinid="ht_image" pan="-38.07" title="Festas" url="images/14 Interna Festas - HR.jpg" description=""/>
-      <hotspot tilt="-24.41" target="" id="Playground" skinid="ht_image" pan="-4.03" title="Playground" url="images/12 Interna Brinquedoteca - HR.jpg" description=""/>
+      <hotspot tilt="-24.41" target="" id="Brinquedoteca" skinid="ht_image" pan="-4.03" title="Brinquedoteca" url="images/12 Interna Brinquedoteca - HR.jpg" description=""/>
       <hotspot tilt="-22.29" target="" id="Family House" skinid="ht_image" pan="-59.86" title="Family House" url="images/15 Interna Family House - HR.jpg" description=""/>
     </hotspots>
     <media/>
