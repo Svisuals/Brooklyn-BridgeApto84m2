@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.13/18080
 // Filename: BrooklynBridge.ggsk
-// Generated 2023-11-19T17:21:29
+// Generated 2023-11-19T17:29:59
 
 function pano2vrSkin(player,base) {
 	player.addVariable('BASICO', 2, false);
@@ -7538,35 +7538,29 @@ function pano2vrSkin(player,base) {
 		me._corretor.logicBlock_position = function() {
 			var newLogicStatePosition;
 			if (
-				((player.getViewerSize().height <= 300))
-			)
-			{
-				newLogicStatePosition = 0;
-			}
-			else if (
 				((player.getViewerSize().width <= 360))
 			)
 			{
-				newLogicStatePosition = 1;
+				newLogicStatePosition = 0;
 			}
 			else if (
 				((player.getViewerSize().width <= 380)) && 
 				((player.getViewerSize().height <= 670))
 			)
 			{
-				newLogicStatePosition = 2;
+				newLogicStatePosition = 1;
 			}
 			else if (
 				((player.getViewerSize().width <= 400))
 			)
 			{
-				newLogicStatePosition = 3;
+				newLogicStatePosition = 2;
 			}
 			else if (
 				((player.getViewerSize().width <= 500))
 			)
 			{
-				newLogicStatePosition = 4;
+				newLogicStatePosition = 3;
 			}
 			else {
 				newLogicStatePosition = -1;
@@ -7576,21 +7570,17 @@ function pano2vrSkin(player,base) {
 				me._corretor.style[domTransition]='right 0s, top 0s, ' + cssPrefix + 'transform 0s, opacity 0s';
 				if (me._corretor.ggCurrentLogicStatePosition == 0) {
 					me._corretor.style.right='140px';
-					me._corretor.style.top='220px';
+					me._corretor.style.top='400px';
 				}
 				else if (me._corretor.ggCurrentLogicStatePosition == 1) {
-					me._corretor.style.right='140px';
-					me._corretor.style.top='440px';
-				}
-				else if (me._corretor.ggCurrentLogicStatePosition == 2) {
 					me._corretor.style.right='155px';
 					me._corretor.style.top='360px';
 				}
-				else if (me._corretor.ggCurrentLogicStatePosition == 3) {
+				else if (me._corretor.ggCurrentLogicStatePosition == 2) {
 					me._corretor.style.right='170px';
 					me._corretor.style.top='550px';
 				}
-				else if (me._corretor.ggCurrentLogicStatePosition == 4) {
+				else if (me._corretor.ggCurrentLogicStatePosition == 3) {
 					me._corretor.style.right='190px';
 					me._corretor.style.top='600px';
 				}
