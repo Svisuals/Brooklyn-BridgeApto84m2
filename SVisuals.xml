@@ -13,7 +13,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max tilt="90" fovstereographic="270" fovfisheye="360" fov="120" pan="360" scaletofit="1"/>
     </view>
-    <userdata latitude="-23.632167" heading="179.25" source="" info="" customnodeid="" datetime="16/11/2023 16:56" comment="" copyright="" tags="Editadas" longitude="-46.691111" description="" author="" nodeid="node9" altitude="729.00" title="Sala de Estar">
+    <userdata latitude="-23.632167" heading="179.25" source="" info="" customnodeid="SE" datetime="16/11/2023 16:56" comment="" copyright="" tags="Editadas" longitude="-46.691111" description="" author="" nodeid="node9" altitude="729.00" title="Sala de Estar">
       <mapcoords y_floorplan_percent="53.5586" y="-1.0231" x="0.758743" x_floorplan_percent="33.2431" mapid="FloorPlan01"/>
     </userdata>
     <hotspots width="180" height="20" wordwrap="1">
